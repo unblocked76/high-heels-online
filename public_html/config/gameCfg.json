@@ -1,0 +1,94 @@
+{
+    "version": "0.0.1",
+    "appId": "wxb13c9f7c2a5132d2",
+    "subpackage": [
+        "3dres"
+    ],
+    "configList": [
+        "config/levelCfg.json"
+    ],
+    "fontList": [
+        "guoshancheshuzi02",
+        "guoshancheshuzi03",
+        "jifenwenzi",
+        "score"
+    ],
+    "baseResList": [
+        "shose",
+        "road",
+        "redBox",
+        "diamond",
+        "Player",
+        "end",
+        "tile",
+        "bridge",
+        "clapEnter",
+        "clapExit",
+        "column",
+        "bridgeEnter",
+        "bridgeExit",
+        "ef_CGQ_spark",
+        "ef_CGQ_diamond",
+        "dealthBox"
+    ],
+    "bgm": "music/bg.mp3",
+    "bgm2": "music/bg2.mp3",
+    "soundClick": "sound/buttonClick.wav",
+    "soundViewOpen": "sound/viewOpen.wav",
+    "default3DScene": "gamescene",
+    "viewMap": {
+        "loading": "view/comm/LoadingPage.scene",
+        "home": "view/comm/HomePage.scene",
+        "rank": "view/comm/RankPage.scene",
+        "playing": "view/game/GamePage.scene",
+        "relive": "view/comm/RelivePage.scene",
+        "score": "view/comm/WinPage.scene",
+        "store": "view/game/StorePage.scene",
+        "screenAd": "view/ad/FullAd.scene",
+        "floatAd": "view/ad/FloatAd.scene",
+        "listAd": "view/ad/ListAd.scene",
+        "knockEggAd": "view/ad/KnockEgg.scene"
+    },
+    "useWebApi": true,
+    "useWebAdApi": true,
+    "webApiSign": "High-Heels-Online-",
+    "webApiMap": {
+        "login": "Zhise/User/login",
+        "authorize": "",
+        "gameCfg": "Zhise/Game/config",
+        "updateInfo": "Zhise/User/update",
+        "gameStart": "Zhise/Game/start",
+        "gameEnd": "Zhise/Game/end",
+        "worldRank": null,
+        "logVideo": "Zhise/Game/video"
+    },
+    "defaultCfg": {
+        "playerInfo": {
+            "user_id": "1",
+            "is_new": 1,
+            "level_id": 1,
+            "gold": 0
+        },
+        "gameSetting": {},
+        "levelData": {
+            "game_id": "-1",
+            "rewardGold": 10
+        }
+    },
+    "storeCfg": {
+        "typeMap": [
+            "icon/",
+            "icon/",
+            "icon/"
+        ],
+        "exchangeRate": 500,
+        "pageSize": 6,
+        "webApi": {
+            "RequestStoreData": "",
+            "RequestEquipItem": "",
+            "ExchangeCoin": "",
+            "UnlockGoodsByGold": "",
+            "UnlockGoodsByVideo": ""
+        }
+    }
+}
